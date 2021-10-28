@@ -51,5 +51,6 @@ Then type: (to run the nodes)
 
 ## Running the client (API)
 Please note : (No UI only API endpoints)
-run 'insurance-webserver-1.0.jar' jar from clients/build/libs
+
+run a 'insurance-webserver-1.0.jar' jar from clients/build/libs
 
