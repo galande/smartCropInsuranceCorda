@@ -13,7 +13,7 @@ open class ConnectionConfig {
     }
 
     @Bean
-    open fun iciciConnection() : NodeRPCConnection {
+    open fun insurer1Connection() : NodeRPCConnection {
         return NodeRPCConnection("localhost", "user1", "test", 10009)
     }
 

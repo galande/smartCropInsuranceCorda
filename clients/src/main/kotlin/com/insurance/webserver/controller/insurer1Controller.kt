@@ -24,9 +24,9 @@ import org.springframework.web.bind.annotation.*
 /**
  * Define your API endpoints here.
  */
-@RestController("iciciController")
-@RequestMapping("/icici") // The paths for HTTP requests are relative to this base path.
-class IciciController(@Qualifier("iciciConnection") rpc: NodeRPCConnection) {
+@RestController("insurer1Controller")
+@RequestMapping("/insurer1") // The paths for HTTP requests are relative to this base path.
+class insurer1Controller(@Qualifier("insurer1Connection") rpc: NodeRPCConnection) {
 
     companion object {
         private val logger = LoggerFactory.getLogger(RestController::class.java)
