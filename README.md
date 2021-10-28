@@ -21,4 +21,20 @@
 5. Queryable state
 
 ## States
-1. Product state - Initially it would be Product proposal from Insurance providers and this proposal goes to the regulator(Govt/Agri Dept/Insurnace Board) and when they accepts it then it would become Insurance Product.
+1. Product Proposal state - Initially it would be Product proposal from Insurance providers and this proposal goes to the regulator(Govt/Agri Dept/Insurnace Board) to accept it.
+2. Product State - It is actual insurance product which will changed from proposal state to product state after acceprance from regulator.
+3. Policy State - This state contains information about individual policy and policy holder famers details including their latitude and logitute.
+
+## Contracts
+1. Product Contract - verfied for product proposal creation and product creation.
+2. Policy Contract - verified for policy creation and at the time claim.
+
+## Flow
+1. Create product proposal flow - Insurance provider will initiate it.
+2. Accept/Reject Proposal - Regulator (Govt/Agri Dept/insurance board) will initiate.
+3. Create Policy - Famer (regulator/Provider will initiate on behalf of Farmer).
+4. Auto Claim - It will be automatically invoked by schedulable flow to do automaticall settle using weather information from Oracle.
+5. Manual claim - It will invoked by Farmer and will be settled using AI.
+
+## Oracle
+1. It will be weather oracle which take external weather history data using can decide wheather its rainy or drought area and as per weather criteria/conditions provided in Product, insured amount will be deposited to farmers automatically.
