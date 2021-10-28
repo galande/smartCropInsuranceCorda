@@ -48,3 +48,8 @@ Open a terminal and go to the project root directory and type: (to deploy the no
 Then type: (to run the nodes)
 
 ./build/nodes/runnodes
+
+## Running the client (API)
+Please note : (No UI only API endpoints)
+run 'insurance-webserver-1.0.jar' jar from clients/build/libs
+
