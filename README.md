@@ -38,3 +38,12 @@
 
 ## Oracle
 1. It will be weather oracle which take external weather history data using can decide wheather its rainy or drought area and as per weather criteria/conditions provided in Product, insured amount will be deposited to farmers automatically.
+
+## Running the nodes
+Open a terminal and go to the project root directory and type: (to deploy the nodes using bootstrapper)
+
+./gradlew clean deployNodes
+
+Then type: (to run the nodes)
+
+./build/nodes/runnodes
