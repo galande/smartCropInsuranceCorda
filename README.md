@@ -1,5 +1,5 @@
 # Smart Crop Insurance using Corda
-Current crop insurance has a lots drwaback such manual process, manual inspection and third party interventions. This smart crop insurance solution settles automatically using weather data from oracle in condtion of heavy rainfall or droght situation. This application uses latitude and longitute of farmers land and decides percentage of insured amount to be given to Farmers and it automatic. This solution is build using Corda DLT platform which provides trust in the ecosystem.
+Current crop insurance has a lots of drwaback such as manual process, manual inspection and third party interventions due to which farmer does not get insured/promised amount in case loss due to natural calamities. This smart crop insurance solution uses Corda and smart contract and settles automatically using weather data from oracle in condtion of heavy rainfall or droght situation. This application uses latitude and longitute of farmers land and decides percentage of insured amount to be given to Farmers and it automatic. This solution is build using Corda DLT platform which provides trust in the ecosystem.
 
 ## Participants
 1. Insurance Providers - Who provides the insurance to Farmers to protect their crops from natural calamities.
