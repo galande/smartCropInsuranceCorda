@@ -28,7 +28,7 @@ data class ProductProposal(val proposalId:String,
                            val weatherCriteria: WeatherCriteria,
                            override val participants: List<AbstractParty>,
                            override val linearId: UniqueIdentifier = UniqueIdentifier(proposalId)
-                   ) : LinearState, QueryableState{
+                   ): LinearState, QueryableState{
 
     override fun generateMappedObject(schema: MappedSchema): PersistentState {
         return if (schema is ProductProposalSchemaV1) {
